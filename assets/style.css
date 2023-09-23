@@ -1,0 +1,30 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+.allMoles{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mole{display: flex;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 200px;
+    border: 3px solid red;
+    border-radius: 20px;
+    box-shadow: 3px 2px 20px 2px rgb(207, 97, 97);
+    height: 180px;
+    margin: 30px;
+}
+.active{
+    background-color: red;
+}
